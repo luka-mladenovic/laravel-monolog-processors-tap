@@ -28,10 +28,10 @@ To specify the processors, add a comma-separated list of processor names as the 
 
 ```php
 'single' => [
-    'driver' 	=> 'single',
-    'path' 		=> storage_path('logs/laravel.log'),
-    'level' 	=> 'debug',
-    'tap' 		=> ['MonologTap\MonologProcessors:uid,memory_usage']
+    'driver' => 'single',
+    'path' => storage_path('logs/laravel.log'),
+    'level' => 'debug',
+    'tap' => ['MonologTap\MonologProcessors:uid,memory_usage']
 ],
 ```
 
