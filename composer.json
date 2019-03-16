@@ -1,0 +1,32 @@
+{
+    "name": "lukam/monolog-tap",
+    "description": "Laravel tap for Monolog processors",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "luka-mladenovic",
+            "email": "luka@kreativika.si"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "require-dev": {
+        "illuminate/log": "5.6.*",
+        "mockery/mockery": "^1.0",
+        "phpunit/phpunit": "^7.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "MonologTap\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "MonologTap\\Test\\": "tests/"
+        },
+        "files": [
+            "tests/AppMock.php"
+        ]
+    }
+}
