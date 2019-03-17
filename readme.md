@@ -3,9 +3,7 @@
 **Processor tap** enables you to easily specify Monolog processors which will add information to your log record.
 
 ```json
-Log::info('Hello world!');
-
-[2019-01-01 12:00:00] local.INFO: Hello world! {"memory_usage":"16 MB","uid":"e44d60c"}
+Log::info('Hello world!'); // [2019-01-01 12:00:00] local.INFO: Hello world! {"memory_usage":"16 MB","uid":"e44d60c"}
 ```
 
 
@@ -17,6 +15,10 @@ Processor tap works with Laravel versions that support the [logging taps](https:
 
 
 ## Installation
+
+```
+composer require lukam/monolog-tap
+```
 
 
 
